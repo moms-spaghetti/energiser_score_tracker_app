@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Energiser HOF</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="glow">ENERGISER HALL OF FAME</h1>
+  </header>
+  <main>
+    <section id="scores-input" class="outerContainer">
+      <h2>Input Scores</h2>
+      <section id="scoreInput">
+        <label>Number of players: <input id="playerCount" placeholder="0"><button id="setPlayerCount">Enter</button><button disabled="true" id="resetPlayerCount">Reset</button></label>
+      </section>
+
+    </section>
+    <section id="main-scoreboard-outer-container" class="outerContainer">
+      <h2>Current Top Ten Scores</h2>
+      <section id="main-scoreboard"></section>
+    </section>
+    <section id="alltime-scoreboard" class="outerContainer">
+      <h2>All Time Game Scores</h2>
+    </section>
+    <section id="danger-zone" class="outerContainer">
+      <h2>Danger Zone!</h2>
+      <article id="danger-zone-container">
+        <h3>Remove Player</h3>
+        <label>Choose player to remove:<select id="remove-player-dropdown"></select><button id="remove-player-button">Delete</button></label>
+      </article>
+      <article>
+        <h3>Remove Gametype</h3>
+        <label>Choose gametype to remove:<select id="remove-gametype-dropdown"></select><button id="remove-gametype-button">Delete</button></label>
+      </article>
+    </section>
+  </main>
+  <script src="javascripts/main.js"></script>
+</body>
+</html>

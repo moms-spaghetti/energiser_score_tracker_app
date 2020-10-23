@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+body {
+  padding: 50px;
+  font: 14px "roboto", Helvetica, Arial, sans-serif;
+  border: 8px solid #000000;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Monofett', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.outerContainer {
+  width: 950px;
+  margin: auto;
+  border: 8px solid #000000;
+  margin-top: 10px;
+}
+
+.game-section-container{
+  border: 8px solid #000000;
+  display: inline-block;
+  width: 425px;
+  margin: 10px;
+  height: 400px;
+}
+
+.game-article-container {
+  border: 8px solid #000000;
+  display: inline-block;
+  width: 300px;
+  margin: 10px
+}

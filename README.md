@@ -54,6 +54,7 @@ This app can be run locally but will require a postgres database for persistant 
    npm start
    ```
 6. Access the application from http://localhost:5000/
+   <br/><br/>
 
 ## Usage
 
